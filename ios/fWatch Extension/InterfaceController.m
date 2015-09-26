@@ -36,6 +36,11 @@
     NSLog(@"De-Activate");
 }
 
+- (IBAction)testButtonPressed {
+    NSLog(@"Test Button Pressed");
+}
+
+
 @end
 
 

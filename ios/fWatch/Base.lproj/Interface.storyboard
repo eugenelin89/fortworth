@@ -10,7 +10,11 @@
             <objects>
                 <controller id="AgC-eL-Hgc" customClass="InterfaceController">
                     <items>
-                        <button width="1" alignment="left" title="FButton" id="5wV-dO-IcV"/>
+                        <button width="1" alignment="left" title="TEST" id="QSb-pj-WjP">
+                            <connections>
+                                <action selector="testButtonPressed" destination="AgC-eL-Hgc" id="BbD-Qg-o5W"/>
+                            </connections>
+                        </button>
                     </items>
                 </controller>
             </objects>
