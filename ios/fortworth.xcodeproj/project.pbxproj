@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		101343191BB630D70047C365 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 101343181BB630D70047C365 /* main.m */; };
+		1013431C1BB630D80047C365 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1013431B1BB630D80047C365 /* AppDelegate.m */; };
+		1013431F1BB630D80047C365 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1013431E1BB630D80047C365 /* ViewController.m */; };
+		101343221BB630D80047C365 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 101343201BB630D80047C365 /* Main.storyboard */; };
+		101343251BB630D80047C365 /* fortworth.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 101343231BB630D80047C365 /* fortworth.xcdatamodeld */; };
+		101343271BB630D80047C365 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 101343261BB630D80047C365 /* Assets.xcassets */; };
+		1013432A1BB630D80047C365 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 101343281BB630D80047C365 /* LaunchScreen.storyboard */; };
+		101343351BB630D80047C365 /* fortworthTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 101343341BB630D80047C365 /* fortworthTests.m */; };
+		101343401BB630D80047C365 /* fortworthUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1013433F1BB630D80047C365 /* fortworthUITests.m */; };
+		1045D5551BB6356D00EE1564 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1045D5541BB6356D00EE1564 /* Parse.framework */; settings = {ASSET_TAGS = (); }; };
+		1045D5581BB635B800EE1564 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1045D5571BB635B800EE1564 /* Bolts.framework */; settings = {ASSET_TAGS = (); }; };
+		1045D55A1BB6367200EE1564 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1045D5591BB6367200EE1564 /* AudioToolbox.framework */; };
+		1045D55C1BB6367B00EE1564 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1045D55B1BB6367B00EE1564 /* CFNetwork.framework */; };
+		1045D55E1BB6368500EE1564 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1045D55D1BB6368500EE1564 /* CoreGraphics.framework */; };
+		1045D5601BB6369100EE1564 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1045D55F1BB6369100EE1564 /* CoreLocation.framework */; };
+		1045D5621BB636A300EE1564 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1045D5611BB636A300EE1564 /* QuartzCore.framework */; };
+		1045D5641BB636AD00EE1564 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1045D5631BB636AD00EE1564 /* Security.framework */; };
+		1045D5661BB636B600EE1564 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1045D5651BB636B600EE1564 /* StoreKit.framework */; };
+		1045D5681BB6372E00EE1564 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1045D5671BB6372E00EE1564 /* SystemConfiguration.framework */; };
+		1045D56A1BB638BF00EE1564 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1045D5691BB638BF00EE1564 /* libz.tbd */; };
+		1045D56C1BB638D500EE1564 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1045D56B1BB638D500EE1564 /* libsqlite3.tbd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		101343311BB630D80047C365 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1013430C1BB630D70047C365 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 101343131BB630D70047C365;
+			remoteInfo = fortworth;
+		};
+		1013433C1BB630D80047C365 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1013430C1BB630D70047C365 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 101343131BB630D70047C365;
+			remoteInfo = fortworth;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		101343141BB630D70047C365 /* fortworth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fortworth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		101343181BB630D70047C365 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1013431A1BB630D70047C365 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1013431B1BB630D80047C365 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1013431D1BB630D80047C365 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1013431E1BB630D80047C365 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		101343211BB630D80047C365 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		101343241BB630D80047C365 /* fortworth.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = fortworth.xcdatamodel; sourceTree = "<group>"; };
+		101343261BB630D80047C365 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		101343291BB630D80047C365 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1013432B1BB630D80047C365 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		101343301BB630D80047C365 /* fortworthTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fortworthTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		101343341BB630D80047C365 /* fortworthTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fortworthTests.m; sourceTree = "<group>"; };
+		101343361BB630D80047C365 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1013433B1BB630D80047C365 /* fortworthUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fortworthUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1013433F1BB630D80047C365 /* fortworthUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fortworthUITests.m; sourceTree = "<group>"; };
+		101343411BB630D80047C365 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1045D5541BB6356D00EE1564 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		1045D5571BB635B800EE1564 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		1045D5591BB6367200EE1564 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		1045D55B1BB6367B00EE1564 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		1045D55D1BB6368500EE1564 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1045D55F1BB6369100EE1564 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		1045D5611BB636A300EE1564 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		1045D5631BB636AD00EE1564 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		1045D5651BB636B600EE1564 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		1045D5671BB6372E00EE1564 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		1045D5691BB638BF00EE1564 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		1045D56B1BB638D500EE1564 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		101343111BB630D70047C365 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1045D56C1BB638D500EE1564 /* libsqlite3.tbd in Frameworks */,
+				1045D56A1BB638BF00EE1564 /* libz.tbd in Frameworks */,
+				1045D5681BB6372E00EE1564 /* SystemConfiguration.framework in Frameworks */,
+				1045D5661BB636B600EE1564 /* StoreKit.framework in Frameworks */,
+				1045D5641BB636AD00EE1564 /* Security.framework in Frameworks */,
+				1045D5621BB636A300EE1564 /* QuartzCore.framework in Frameworks */,
+				1045D5601BB6369100EE1564 /* CoreLocation.framework in Frameworks */,
+				1045D55E1BB6368500EE1564 /* CoreGraphics.framework in Frameworks */,
+				1045D55C1BB6367B00EE1564 /* CFNetwork.framework in Frameworks */,
+				1045D55A1BB6367200EE1564 /* AudioToolbox.framework in Frameworks */,
+				1045D5551BB6356D00EE1564 /* Parse.framework in Frameworks */,
+				1045D5581BB635B800EE1564 /* Bolts.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1013432D1BB630D80047C365 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		101343381BB630D80047C365 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1013430B1BB630D70047C365 = {
+			isa = PBXGroup;
+			children = (
+				101343161BB630D70047C365 /* fortworth */,
+				101343331BB630D80047C365 /* fortworthTests */,
+				1013433E1BB630D80047C365 /* fortworthUITests */,
+				101343151BB630D70047C365 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		101343151BB630D70047C365 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				101343141BB630D70047C365 /* fortworth.app */,
+				101343301BB630D80047C365 /* fortworthTests.xctest */,
+				1013433B1BB630D80047C365 /* fortworthUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		101343161BB630D70047C365 /* fortworth */ = {
+			isa = PBXGroup;
+			children = (
+				1045D5561BB6358700EE1564 /* Frameworks */,
+				1013431A1BB630D70047C365 /* AppDelegate.h */,
+				1013431B1BB630D80047C365 /* AppDelegate.m */,
+				1013431D1BB630D80047C365 /* ViewController.h */,
+				1013431E1BB630D80047C365 /* ViewController.m */,
+				101343201BB630D80047C365 /* Main.storyboard */,
+				101343261BB630D80047C365 /* Assets.xcassets */,
+				101343281BB630D80047C365 /* LaunchScreen.storyboard */,
+				1013432B1BB630D80047C365 /* Info.plist */,
+				101343231BB630D80047C365 /* fortworth.xcdatamodeld */,
+				101343171BB630D70047C365 /* Supporting Files */,
+			);
+			path = fortworth;
+			sourceTree = "<group>";
+		};
+		101343171BB630D70047C365 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				101343181BB630D70047C365 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		101343331BB630D80047C365 /* fortworthTests */ = {
+			isa = PBXGroup;
+			children = (
+				101343341BB630D80047C365 /* fortworthTests.m */,
+				101343361BB630D80047C365 /* Info.plist */,
+			);
+			path = fortworthTests;
+			sourceTree = "<group>";
+		};
+		1013433E1BB630D80047C365 /* fortworthUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1013433F1BB630D80047C365 /* fortworthUITests.m */,
+				101343411BB630D80047C365 /* Info.plist */,
+			);
+			path = fortworthUITests;
+			sourceTree = "<group>";
+		};
+		1045D5561BB6358700EE1564 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1045D56B1BB638D500EE1564 /* libsqlite3.tbd */,
+				1045D5691BB638BF00EE1564 /* libz.tbd */,
+				1045D5671BB6372E00EE1564 /* SystemConfiguration.framework */,
+				1045D5651BB636B600EE1564 /* StoreKit.framework */,
+				1045D5631BB636AD00EE1564 /* Security.framework */,
+				1045D5611BB636A300EE1564 /* QuartzCore.framework */,
+				1045D55F1BB6369100EE1564 /* CoreLocation.framework */,
+				1045D55D1BB6368500EE1564 /* CoreGraphics.framework */,
+				1045D55B1BB6367B00EE1564 /* CFNetwork.framework */,
+				1045D5591BB6367200EE1564 /* AudioToolbox.framework */,
+				1045D5571BB635B800EE1564 /* Bolts.framework */,
+				1045D5541BB6356D00EE1564 /* Parse.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		101343131BB630D70047C365 /* fortworth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 101343441BB630D80047C365 /* Build configuration list for PBXNativeTarget "fortworth" */;
+			buildPhases = (
+				101343101BB630D70047C365 /* Sources */,
+				101343111BB630D70047C365 /* Frameworks */,
+				101343121BB630D70047C365 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fortworth;
+			productName = fortworth;
+			productReference = 101343141BB630D70047C365 /* fortworth.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1013432F1BB630D80047C365 /* fortworthTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 101343471BB630D80047C365 /* Build configuration list for PBXNativeTarget "fortworthTests" */;
+			buildPhases = (
+				1013432C1BB630D80047C365 /* Sources */,
+				1013432D1BB630D80047C365 /* Frameworks */,
+				1013432E1BB630D80047C365 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				101343321BB630D80047C365 /* PBXTargetDependency */,
+			);
+			name = fortworthTests;
+			productName = fortworthTests;
+			productReference = 101343301BB630D80047C365 /* fortworthTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1013433A1BB630D80047C365 /* fortworthUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1013434A1BB630D80047C365 /* Build configuration list for PBXNativeTarget "fortworthUITests" */;
+			buildPhases = (
+				101343371BB630D80047C365 /* Sources */,
+				101343381BB630D80047C365 /* Frameworks */,
+				101343391BB630D80047C365 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1013433D1BB630D80047C365 /* PBXTargetDependency */,
+			);
+			name = fortworthUITests;
+			productName = fortworthUITests;
+			productReference = 1013433B1BB630D80047C365 /* fortworthUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1013430C1BB630D70047C365 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "S5 Software Technologies Inc";
+				TargetAttributes = {
+					101343131BB630D70047C365 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 46PN8BCLD6;
+					};
+					1013432F1BB630D80047C365 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 101343131BB630D70047C365;
+					};
+					1013433A1BB630D80047C365 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 101343131BB630D70047C365;
+					};
+				};
+			};
+			buildConfigurationList = 1013430F1BB630D70047C365 /* Build configuration list for PBXProject "fortworth" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1013430B1BB630D70047C365;
+			productRefGroup = 101343151BB630D70047C365 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				101343131BB630D70047C365 /* fortworth */,
+				1013432F1BB630D80047C365 /* fortworthTests */,
+				1013433A1BB630D80047C365 /* fortworthUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		101343121BB630D70047C365 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1013432A1BB630D80047C365 /* LaunchScreen.storyboard in Resources */,
+				101343271BB630D80047C365 /* Assets.xcassets in Resources */,
+				101343221BB630D80047C365 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1013432E1BB630D80047C365 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		101343391BB630D80047C365 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		101343101BB630D70047C365 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1013431F1BB630D80047C365 /* ViewController.m in Sources */,
+				101343251BB630D80047C365 /* fortworth.xcdatamodeld in Sources */,
+				1013431C1BB630D80047C365 /* AppDelegate.m in Sources */,
+				101343191BB630D70047C365 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1013432C1BB630D80047C365 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				101343351BB630D80047C365 /* fortworthTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		101343371BB630D80047C365 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				101343401BB630D80047C365 /* fortworthUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		101343321BB630D80047C365 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 101343131BB630D70047C365 /* fortworth */;
+			targetProxy = 101343311BB630D80047C365 /* PBXContainerItemProxy */;
+		};
+		1013433D1BB630D80047C365 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 101343131BB630D70047C365 /* fortworth */;
+			targetProxy = 1013433C1BB630D80047C365 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		101343201BB630D80047C365 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				101343211BB630D80047C365 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		101343281BB630D80047C365 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				101343291BB630D80047C365 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		101343421BB630D80047C365 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		101343431BB630D80047C365 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		101343451BB630D80047C365 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/fortworth",
+				);
+				INFOPLIST_FILE = fortworth/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eugenicode.fortworth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		101343461BB630D80047C365 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/fortworth",
+				);
+				INFOPLIST_FILE = fortworth/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eugenicode.fortworth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		101343481BB630D80047C365 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = fortworthTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eugenicode.fortworthTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fortworth.app/fortworth";
+			};
+			name = Debug;
+		};
+		101343491BB630D80047C365 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = fortworthTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eugenicode.fortworthTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fortworth.app/fortworth";
+			};
+			name = Release;
+		};
+		1013434B1BB630D80047C365 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = fortworthUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eugenicode.fortworthUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = fortworth;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		1013434C1BB630D80047C365 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = fortworthUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eugenicode.fortworthUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = fortworth;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1013430F1BB630D70047C365 /* Build configuration list for PBXProject "fortworth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				101343421BB630D80047C365 /* Debug */,
+				101343431BB630D80047C365 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		101343441BB630D80047C365 /* Build configuration list for PBXNativeTarget "fortworth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				101343451BB630D80047C365 /* Debug */,
+				101343461BB630D80047C365 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		101343471BB630D80047C365 /* Build configuration list for PBXNativeTarget "fortworthTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				101343481BB630D80047C365 /* Debug */,
+				101343491BB630D80047C365 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1013434A1BB630D80047C365 /* Build configuration list for PBXNativeTarget "fortworthUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1013434B1BB630D80047C365 /* Debug */,
+				1013434C1BB630D80047C365 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		101343231BB630D80047C365 /* fortworth.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				101343241BB630D80047C365 /* fortworth.xcdatamodel */,
+			);
+			currentVersion = 101343241BB630D80047C365 /* fortworth.xcdatamodel */;
+			path = fortworth.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1013430C1BB630D70047C365 /* Project object */;
+}
