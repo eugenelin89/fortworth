@@ -18,14 +18,24 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    //PFObject *testObject = [PFObject objectWithClassName:@"TestObject"];
-    //testObject[@"foo"] = @"bar";
-    //[testObject saveInBackground];
+
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+-(void)testAdd
+{
+    PFObject *testObject = [PFObject objectWithClassName:@"Job"];
+    testObject[@"truckId"] = @"truck1";
+    [testObject saveInBackground];
+}
+
+- (IBAction)test:(id)sender
+{
+    [self testAdd];
 }
 
 @end

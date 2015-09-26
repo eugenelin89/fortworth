@@ -28,6 +28,15 @@
 		1045D5681BB6372E00EE1564 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1045D5671BB6372E00EE1564 /* SystemConfiguration.framework */; };
 		1045D56A1BB638BF00EE1564 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1045D5691BB638BF00EE1564 /* libz.tbd */; };
 		1045D56C1BB638D500EE1564 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1045D56B1BB638D500EE1564 /* libsqlite3.tbd */; };
+		1045D5731BB6474600EE1564 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1045D5711BB6474600EE1564 /* Interface.storyboard */; };
+		1045D5751BB6474600EE1564 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1045D5741BB6474600EE1564 /* Assets.xcassets */; };
+		1045D57C1BB6474600EE1564 /* fWatch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1045D57B1BB6474600EE1564 /* fWatch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1045D5841BB6474600EE1564 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1045D5831BB6474600EE1564 /* InterfaceController.m */; };
+		1045D5871BB6474600EE1564 /* ExtensionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1045D5861BB6474600EE1564 /* ExtensionDelegate.m */; };
+		1045D58A1BB6474600EE1564 /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1045D5891BB6474600EE1564 /* NotificationController.m */; };
+		1045D58D1BB6474600EE1564 /* GlanceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1045D58C1BB6474600EE1564 /* GlanceController.m */; };
+		1045D58F1BB6474700EE1564 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1045D58E1BB6474700EE1564 /* Assets.xcassets */; };
+		1045D5941BB6474700EE1564 /* fWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 1045D56F1BB6474600EE1564 /* fWatch.app */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +54,46 @@
 			remoteGlobalIDString = 101343131BB630D70047C365;
 			remoteInfo = fortworth;
 		};
+		1045D57D1BB6474600EE1564 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1013430C1BB630D70047C365 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1045D57A1BB6474600EE1564;
+			remoteInfo = "fWatch Extension";
+		};
+		1045D5911BB6474700EE1564 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1013430C1BB630D70047C365 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1045D56E1BB6474600EE1564;
+			remoteInfo = fWatch;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1045D5931BB6474700EE1564 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				1045D5941BB6474700EE1564 /* fWatch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1045D5981BB6474700EE1564 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				1045D57C1BB6474600EE1564 /* fWatch Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		101343141BB630D70047C365 /* fortworth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fortworth.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -77,6 +125,22 @@
 		1045D5671BB6372E00EE1564 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		1045D5691BB638BF00EE1564 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		1045D56B1BB638D500EE1564 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		1045D56F1BB6474600EE1564 /* fWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1045D5721BB6474600EE1564 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		1045D5741BB6474600EE1564 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1045D5761BB6474600EE1564 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1045D57B1BB6474600EE1564 /* fWatch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "fWatch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1045D5811BB6474600EE1564 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		1045D5821BB6474600EE1564 /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		1045D5831BB6474600EE1564 /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		1045D5851BB6474600EE1564 /* ExtensionDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExtensionDelegate.h; sourceTree = "<group>"; };
+		1045D5861BB6474600EE1564 /* ExtensionDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExtensionDelegate.m; sourceTree = "<group>"; };
+		1045D5881BB6474600EE1564 /* NotificationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationController.h; sourceTree = "<group>"; };
+		1045D5891BB6474600EE1564 /* NotificationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationController.m; sourceTree = "<group>"; };
+		1045D58B1BB6474600EE1564 /* GlanceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlanceController.h; sourceTree = "<group>"; };
+		1045D58C1BB6474600EE1564 /* GlanceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GlanceController.m; sourceTree = "<group>"; };
+		1045D58E1BB6474700EE1564 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1045D5901BB6474700EE1564 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +177,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1045D5781BB6474600EE1564 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -122,6 +193,8 @@
 				101343161BB630D70047C365 /* fortworth */,
 				101343331BB630D80047C365 /* fortworthTests */,
 				1013433E1BB630D80047C365 /* fortworthUITests */,
+				1045D5701BB6474600EE1564 /* fWatch */,
+				1045D57F1BB6474600EE1564 /* fWatch Extension */,
 				101343151BB630D70047C365 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -132,6 +205,8 @@
 				101343141BB630D70047C365 /* fortworth.app */,
 				101343301BB630D80047C365 /* fortworthTests.xctest */,
 				1013433B1BB630D80047C365 /* fortworthUITests.xctest */,
+				1045D56F1BB6474600EE1564 /* fWatch.app */,
+				1045D57B1BB6474600EE1564 /* fWatch Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -199,6 +274,42 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		1045D5701BB6474600EE1564 /* fWatch */ = {
+			isa = PBXGroup;
+			children = (
+				1045D5711BB6474600EE1564 /* Interface.storyboard */,
+				1045D5741BB6474600EE1564 /* Assets.xcassets */,
+				1045D5761BB6474600EE1564 /* Info.plist */,
+			);
+			path = fWatch;
+			sourceTree = "<group>";
+		};
+		1045D57F1BB6474600EE1564 /* fWatch Extension */ = {
+			isa = PBXGroup;
+			children = (
+				1045D5821BB6474600EE1564 /* InterfaceController.h */,
+				1045D5831BB6474600EE1564 /* InterfaceController.m */,
+				1045D5851BB6474600EE1564 /* ExtensionDelegate.h */,
+				1045D5861BB6474600EE1564 /* ExtensionDelegate.m */,
+				1045D5881BB6474600EE1564 /* NotificationController.h */,
+				1045D5891BB6474600EE1564 /* NotificationController.m */,
+				1045D58B1BB6474600EE1564 /* GlanceController.h */,
+				1045D58C1BB6474600EE1564 /* GlanceController.m */,
+				1045D58E1BB6474700EE1564 /* Assets.xcassets */,
+				1045D5901BB6474700EE1564 /* Info.plist */,
+				1045D5801BB6474600EE1564 /* Supporting Files */,
+			);
+			path = "fWatch Extension";
+			sourceTree = "<group>";
+		};
+		1045D5801BB6474600EE1564 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1045D5811BB6474600EE1564 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -209,10 +320,12 @@
 				101343101BB630D70047C365 /* Sources */,
 				101343111BB630D70047C365 /* Frameworks */,
 				101343121BB630D70047C365 /* Resources */,
+				1045D5931BB6474700EE1564 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				1045D5921BB6474700EE1564 /* PBXTargetDependency */,
 			);
 			name = fortworth;
 			productName = fortworth;
@@ -255,6 +368,40 @@
 			productReference = 1013433B1BB630D80047C365 /* fortworthUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		1045D56E1BB6474600EE1564 /* fWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1045D5991BB6474700EE1564 /* Build configuration list for PBXNativeTarget "fWatch" */;
+			buildPhases = (
+				1045D56D1BB6474600EE1564 /* Resources */,
+				1045D5981BB6474700EE1564 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1045D57E1BB6474600EE1564 /* PBXTargetDependency */,
+			);
+			name = fWatch;
+			productName = fWatch;
+			productReference = 1045D56F1BB6474600EE1564 /* fWatch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		1045D57A1BB6474600EE1564 /* fWatch Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1045D5951BB6474700EE1564 /* Build configuration list for PBXNativeTarget "fWatch Extension" */;
+			buildPhases = (
+				1045D5771BB6474600EE1564 /* Sources */,
+				1045D5781BB6474600EE1564 /* Frameworks */,
+				1045D5791BB6474600EE1564 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "fWatch Extension";
+			productName = "fWatch Extension";
+			productReference = 1045D57B1BB6474600EE1564 /* fWatch Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -276,6 +423,13 @@
 						CreatedOnToolsVersion = 7.0;
 						TestTargetID = 101343131BB630D70047C365;
 					};
+					1045D56E1BB6474600EE1564 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 46PN8BCLD6;
+					};
+					1045D57A1BB6474600EE1564 = {
+						CreatedOnToolsVersion = 7.0;
+					};
 				};
 			};
 			buildConfigurationList = 1013430F1BB630D70047C365 /* Build configuration list for PBXProject "fortworth" */;
@@ -294,6 +448,8 @@
 				101343131BB630D70047C365 /* fortworth */,
 				1013432F1BB630D80047C365 /* fortworthTests */,
 				1013433A1BB630D80047C365 /* fortworthUITests */,
+				1045D56E1BB6474600EE1564 /* fWatch */,
+				1045D57A1BB6474600EE1564 /* fWatch Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -320,6 +476,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1045D56D1BB6474600EE1564 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1045D5751BB6474600EE1564 /* Assets.xcassets in Resources */,
+				1045D5731BB6474600EE1564 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1045D5791BB6474600EE1564 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1045D58F1BB6474700EE1564 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,6 +526,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1045D5771BB6474600EE1564 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1045D5871BB6474600EE1564 /* ExtensionDelegate.m in Sources */,
+				1045D5841BB6474600EE1564 /* InterfaceController.m in Sources */,
+				1045D58A1BB6474600EE1564 /* NotificationController.m in Sources */,
+				1045D58D1BB6474600EE1564 /* GlanceController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -365,6 +549,16 @@
 			isa = PBXTargetDependency;
 			target = 101343131BB630D70047C365 /* fortworth */;
 			targetProxy = 1013433C1BB630D80047C365 /* PBXContainerItemProxy */;
+		};
+		1045D57E1BB6474600EE1564 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1045D57A1BB6474600EE1564 /* fWatch Extension */;
+			targetProxy = 1045D57D1BB6474600EE1564 /* PBXContainerItemProxy */;
+		};
+		1045D5921BB6474700EE1564 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1045D56E1BB6474600EE1564 /* fWatch */;
+			targetProxy = 1045D5911BB6474700EE1564 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -383,6 +577,14 @@
 				101343291BB630D80047C365 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		1045D5711BB6474600EE1564 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1045D5721BB6474600EE1564 /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -548,6 +750,66 @@
 			};
 			name = Release;
 		};
+		1045D5961BB6474700EE1564 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "fWatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eugenicode.fortworth.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		1045D5971BB6474700EE1564 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "fWatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eugenicode.fortworth.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		1045D59A1BB6474700EE1564 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IBSC_MODULE = fWatch_Extension;
+				INFOPLIST_FILE = fWatch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eugenicode.fortworth.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		1045D59B1BB6474700EE1564 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IBSC_MODULE = fWatch_Extension;
+				INFOPLIST_FILE = fWatch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eugenicode.fortworth.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -586,6 +848,22 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		1045D5951BB6474700EE1564 /* Build configuration list for PBXNativeTarget "fWatch Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1045D5961BB6474700EE1564 /* Debug */,
+				1045D5971BB6474700EE1564 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1045D5991BB6474700EE1564 /* Build configuration list for PBXNativeTarget "fWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1045D59A1BB6474700EE1564 /* Debug */,
+				1045D59B1BB6474700EE1564 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 
